@@ -47,15 +47,15 @@ import time
 
 ## -- What folder are the PDFs currently in:
 
-startFolder = '//bri-fs-01.ufs.global/Shared/Invoices/john/copyOfApproved'
+startFolder = '/example/directory'
 
 ## -- What should the temporary folder of the program be:
 
-tempFolder = '//bri-fs-01.ufs.global/Shared/Invoices/john/temp'
+tempFolder = '/example/directory'
 
 ## -- Where should the finished PDFs go:
 
-newFolder = '//bri-fs-01.ufs.global/Shared/Invoices/john/approved'
+newFolder = '/example/directory'
 
 def copyDirectory():
     
